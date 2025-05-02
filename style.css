@@ -36,7 +36,7 @@
  }
  .profile-text{
     background-color: #012326;
-    padding: 40px;
+    padding: 10px;
     font-family: nunito;
     align-items: center;
     display: flex;
@@ -83,7 +83,7 @@ body{
 }
  .text{
     border-radius: 30px;
-    
+    background-color: #b0c4d1;
     padding: 10px;
     width: 90%;
     p{
