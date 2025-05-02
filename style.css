@@ -25,13 +25,14 @@
     border: 1px solid;
     p{
         text-align: center;
-        padding: 5px;
+        padding: 1px;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
     }
     a{
-        color: white;
-        font-size: 20px;
+        color: rgb(133, 203, 221);
+        font-size: 15px;
+        text-decoration: none;
     }
  }
  .profile-text{
