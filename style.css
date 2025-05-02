@@ -12,7 +12,7 @@
  .heading{
     background-color: white;
     width:30% ;
-   margin-left:550px;
+   margin-left:600px;
    text-align: center;
    padding: 10px;
    h1{
@@ -26,7 +26,8 @@
     p{
         text-align: center;
         padding: 5px;
-        
+        color: white;
+        font-size: 20px;
     }
     a{
         color: white;
