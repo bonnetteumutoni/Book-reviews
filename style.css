@@ -141,247 +141,150 @@ form{
 
 
 @media screen and (max-width: 750px) {
-    html {
-        scroll-behavior: smooth;
-    }
-    body {
-        margin: 0;
-        padding: 0;
+     
+    .blog-book{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(images/image.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30vh;
+        position: relative;
         width: 100%;
+        padding-top:120px ;
+        padding-bottom: 100px;
     }
-    @font-face {
-        font-family: nunito;
-        src: url(fontsAndImages/Nunito-VariableFont_wght.ttf);
-    }
-    
-    @font-face {
-        font-family: ku;
-        src: url(fontsAndImages/Kurale-Regular.ttf);
-    }
-    
-    @font-face {
-        font-family: script;
-        src: url(fontsAndImages/StyleScript-Regular.ttf
-    );
-    }
-    
-    @font-face {
-        font-family: prof;
-        src: url(fontsAndImages/Dosis/Dosis-VariableFont_wght.ttf);
-    }
-    
-    .navigations {
-        font-family: nunito;
-        position: absolute;
-        top: -1.7vh;
-        z-index: 2;
-        width: 100vw;
-        position: fixed;
-    
-    }
-    
-    .advert {
-        text-align: center;
-        height: 4vh;
-        background-color: #012326;
-        color: white;
-        padding: 0.2%;
-    
-        p {
-            align-items: center;
-        }
-    
-        a {
-            text-decoration: none;
-            color: #e3e4b8;
-        }
-    }
-    
-    
-    
-    nav {
-    
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 13vw;
+     .heading{
         background-color: white;
-    
-        img {
-            height: 70px;
-        }
-    
-        a {
-            margin-left: 5%;
-            text-decoration: none;
-            color: rgb(175, 42, 42);
-            font-size: large;
-    
-        }
-    
-    }
-    
-    .button {
-        cursor: pointer;
-        position: absolute;
-        right: 4vw;
-        color: #012326;
-        width: 7vw;
-        left: 5%;
-        top: 120%;
-    }
-    
-    .button:hover {
-        background-color: transparent;
-        color: #A61F2B;
-    }
-    
-    nav a:hover {
+        width:70% ;
+       margin-left:50px;
+       text-align: center;
+       padding: 10px;
+       h1{
+        font-weight: lighter;
         color: #234457;
-    }
-    
-    .nav-links {
-        width: 50%;
-    }
-    
-    /*  */
-    .body-section{
-    
-        width: 100%;
-        margin: 30vh auto;
-    }
-    .profile{
+        font-size: 20px;
+       }
+     }
+     .profile-text{
+        background-color: #012326;
+        padding: 40px;
         font-family: nunito;
-        align-items: left;
+        align-items: center;
         display: flex;
-        margin: 0;
+        p{
+            color: white;
+        }
         img{
             border-radius: 50vw;
             width: 50px;
-            margin: 0;
         }
         gap: 1vw;
+     }
+    .image-text{
+        background-color: rgb(225, 225, 247);
+    }  
+     .quotes{
+        padding: 30px;
+        background-color: rgb(224, 241, 241);
+        p{
+            margin: 40px;
+            font-size: 20px;
+        }
+        h2{
+            text-align: center;
+            color: #17242b;
+            font-weight: bold;
+        }
+        i{
+            color: orangered;
+        }
+    }
+    .about-text{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 10px;
+        gap: 100px;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: aliceblue;
+        width: 100%;
+    }
+     .text{
+        border:1px solid;
+        border-radius: 30px;
+        
+        padding: 10px;
+        width: 90%;
+        p{
+            font-size: 20px;
+        }
         
      }
-     .reflections{
-        font-size: 20px;
-        font-family: ku;
-        color: rgb(73, 71, 71);
-        /* width: 100%; */
-        margin: 0;
-     }
-    .blog{
-        h2{
-            text-decoration: underline;
-            font-size: xx-large;
-            font-family: nunito;
-            color: #A61F2B;
-    
-        }
-        p{
-            font-family: ku;
-            color: rgb(48, 46, 46);
-        }
-    }
-    .blog-image{
-        width: 40vw;
-        h2{
-            font-size: xx-large;
-            font-family: nunito;
-            color: #A61F2B;
-            
-        }
+     .text-italic{
+        color: #234457;
+        margin-top: 10px;
         img{
-            width: 80vw;
-            margin-left: 4em;
+            width: 59%;
         }
-    }
-    .blog-info{
-        h3{
-            font-size: x-large;
-            font-family: nunito;
-            color: #234457;
+     }
+    footer {
+        padding-top: 5vh;
+        height: 45vh;
+        width: 100vw;
+        background-color: #17242b;
+    
+        a {
+            color: white;
+            font-size: small;
+        }
+    
+        h2 {
+            font-size: xxx-large;
+            color: white;
             text-align: center;
         }
-        p{
-            width: 100%;
-        }
-    }
-    .excerpt{
-        padding: 0;
-        background-color: #e3e4b8;
-        text-align: left;
-        font-family: ku;
-        font-size: 2em;
-        p{
-            width: 100%;
-            font-family: ku;
-        }
-    }
-    .fa-brands{
-        text-align: center;
-        font-size: 1.sem;
-      
-     }
-     .fa-brands{
-        text-align: center;
-        font-size: 1.5em;
-      
-     }
-     .hr-line{
-        position: relative;
-        max-width: 100%;
-        margin: 30px auto;
-        height: 1px;
-        background-color: black;
-     }
-     .fa-brands{
-        text-align: center;
-        font-size: 1.5em;
-      
-     }
-     .hr-line{
-        position: relative;
-        max-width: 100%;
-        margin: 30px auto;
-        height: 1px;
-        background-color: black;
-     }
-     
-     
     
-     .socials{
+    }
+    
+    #socials {
+        width: 35vw;
+        position: absolute;
+        gap: 4px;
+        left: 50%;
+        padding-top: 33vh;
+        transform: translate(-50%, -50%);
+        color: white;
         display: flex;
-        gap: 1em;
-       margin: 0;
+        align-items: center;
+       
+    }
+    
+    form{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50vw;
+        padding-top: 10vh;
+        font-size: large;
+        color: white;
+    }
+    .join-us input{
+        padding: 10px;
+        margin-top: 2vh;
+        width: 25vw;
+        height: 5vh;
+    }
+    .join-us button{
+        cursor: pointer;
+        width: 10vw;
+        height: 5vb;
+    }
+    .join-us button:hover{
+        background-color: #234457;
+        color: white;
+    }
+     
      }
-     .fa-brands{
-        text-align: center;
-        font-size: 1.5em;
-      
-     }
-     .hr-line{
-        position: relative;
-        max-width: 100%;
-        margin: 30px auto;
-        height: 1px;
-        background-color: black;
-     }
-     .socials{
-        display: flex;
-        gap: 3em;
-       margin-left: 25em;
-     }
-     
-     
-     
-     
-     .new-title{
-        display: flex;
-        gap: 10%;
-        text-align: center;
-        font-size: x-large;
-     
-     
-     }}
